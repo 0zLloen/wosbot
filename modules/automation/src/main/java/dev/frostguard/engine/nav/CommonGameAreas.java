@@ -43,7 +43,8 @@ public final class CommonGameAreas {
     // ── account / energy panel ───────────────────────────────────────
 
     public static final AreaData PROFILE_AVATAR        = region(24, 24, 61, 61);
-    public static final AreaData STAMINA_BUTTON        = region(223, 1101, 244, 1123);
+    // The can and stamina value remain in this HUD band in both City and World.
+    public static final AreaData HUD_STAMINA_ENTRY     = region(8, 101, 105, 126);
     public static final AreaData STAMINA_OCR_AREA      = region(324, 255, 477, 289);
     public static final AreaData SPENT_STAMINA_OCR_AREA = region(540, 1215, 590, 1245);
     // English "Tap anywhere to exit" hints are rendered in this lower strip on result overlays.
